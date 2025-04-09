@@ -142,6 +142,96 @@ body {
     margin-bottom: 0;
     
 }
+
+.login .container {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 30px;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.login {
+    display:flex;
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    height: 135px;
+    background-size: cover;
+    color: #e4005a;
+    justify-content: center;
+    align-items: center;
+    padding: 15%; 
+    text-align: center;
+}
+
+.card-login {
+    display: flex;
+    background-color: #dcdcdc;
+    width: 600px;
+    height: 280px;
+    border-radius: 12px;
+    padding: 10px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo input {
+    display: block;
+    border-radius: 7px;
+    margin-bottom: 3%;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    border: 2px solid #32b9cd;
+}
+
+.formulario .campo {
+    text-align: left;
+}
+
+.formulario .botao {
+    background-color: #e4005a;
+    border-radius: 10px;
+    border:#e4005a;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    color:white;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.cadastro .container {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.card-cadastro {
+    display: flex;
+    background-color: #dcdcdc;
+    width: 600px;
+    height: 450px;
+    border-radius: 12px;
+    align-self: center;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
   
 
 
